@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .bg-gradient-animate-normal {
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .bg-gradient-animate-hot {
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-gradient-animate-cold {
+    background-size: 200% 200%;
+    animation: gradient 20s ease infinite;
+  }
+  
+  .bg-gradient-animate-humid {
+    background-size: 200% 200%;
+    animation: gradient 18s ease infinite;
+  }
+  
+  .bg-gradient-animate-error {
+    background-size: 200% 200%;
+    animation: gradient 12s ease infinite;
+  }
+  
+  .bg-gradient-animate-night {
+    background-size: 200% 200%;
+    animation: gradient 25s ease infinite;
+  }
